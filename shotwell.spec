@@ -10,7 +10,7 @@ Release:	1
 License:	LGPLv2+ and CC-BY-SA
 Group:		Graphics
 Url:		http://www.yorba.org/shotwell/
-Source0:	http://www.yorba.org/download/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
+Source0:	https://download.gnome.org/sources/%{name}/0.28/%{name}-%{version}.tar.xz
 Patch1:		shotwell-0.22.0-webkit2.patch
 BuildRequires:	vala
 BuildRequires:	pkgconfig(gdk-3.0)

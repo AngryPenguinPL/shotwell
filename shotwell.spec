@@ -46,7 +46,6 @@ mode, and export them to share with others.
 %before_configure
 ./configure \
 	--prefix=%{_prefix} \
-	--lib=%{_lib} \
 	--disable-schemas-compile \
 	--disable-desktop-update \
 	--disable-icon-update

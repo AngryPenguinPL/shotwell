@@ -11,7 +11,7 @@ License:	LGPLv2+ and CC-BY-SA
 Group:		Graphics
 Url:		http://www.yorba.org/shotwell/
 Source0:	https://download.gnome.org/sources/%{name}/0.28/%{name}-%{version}.tar.xz
-Patch1:		shotwell-0.22.0-webkit2.patch
+#Patch1:		shotwell-0.22.0-webkit2.patch
 BuildRequires:	vala
 BuildRequires:	pkgconfig(gdk-3.0)
 BuildRequires:	pkgconfig(gdk-pixbuf-2.0)
@@ -40,7 +40,7 @@ mode, and export them to share with others.
 
 %prep
 %setup -q
-%apply_patches
+#apply_patches
 
 %build
 %before_configure

@@ -13,16 +13,21 @@ Url:		http://www.yorba.org/shotwell/
 Source0:	https://download.gnome.org/sources/%{name}/0.28/%{name}-%{version}.tar.xz
 #Patch1:		shotwell-0.22.0-webkit2.patch
 BuildRequires:	vala
+BuildRequires:	pkgconfig(glib-2.0)
+BuildRequires:	pkgconfig(libxml2_2)
+BuildRequires:	pkgconfig(gcr-3)
+BuildRequires:	pkgconfig(libgdata)
+BuildRequires:	pkgconfig(gcr-ui3)
 BuildRequires:	pkgconfig(gdk-3.0)
 BuildRequires:	pkgconfig(gdk-pixbuf-2.0)
-BuildRequires:	pkgconfig(gexiv2) >= 0.4.90
+BuildRequires:	pkgconfig(gexiv2)
 BuildRequires:	pkgconfig(gee-0.8)
 BuildRequires:	pkgconfig(gnome-doc-utils)
 BuildRequires:	pkgconfig(gstreamer-1.0)
 BuildRequires:	pkgconfig(gstreamer-pbutils-1.0)
 BuildRequires:	pkgconfig(gstreamer-plugins-base-1.0)
 BuildRequires:	pkgconfig(gudev-1.0)
-BuildRequires:	pkgconfig(json-glib-1.0)
+BuildRequires:	pkgconfig(json-glib)
 BuildRequires:	pkgconfig(libexif)
 BuildRequires:	pkgconfig(libgphoto2)
 BuildRequires:	pkgconfig(libraw)

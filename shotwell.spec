@@ -14,7 +14,7 @@ Source0:	https://download.gnome.org/sources/%{name}/0.28/%{name}-%{version}.tar.
 #Patch1:		shotwell-0.22.0-webkit2.patch
 BuildRequires:	vala
 BuildRequires:	pkgconfig(glib-2.0)
-BuildRequires:	pkgconfig(libxml2_2)
+#BuildRequires:	pkgconfig(libxml2_2)
 BuildRequires:	pkgconfig(gcr-3)
 BuildRequires:	pkgconfig(libgdata)
 #BuildRequires:	pkgconfig(gcr-ui3)

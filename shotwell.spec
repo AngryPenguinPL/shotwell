@@ -18,6 +18,7 @@ BuildRequires:	pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(gcr-3)
 BuildRequires:	pkgconfig(libgdata)
 #BuildRequires:	pkgconfig(gcr-ui3)
+BuildRequires:	itstool
 BuildRequires:	pkgconfig(gdk-3.0)
 BuildRequires:	pkgconfig(gdk-pixbuf-2.0)
 BuildRequires:	pkgconfig(gexiv2)
